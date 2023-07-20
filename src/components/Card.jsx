@@ -4,7 +4,7 @@ import { HandThumbUpIcon} from '@heroicons/react/24/outline'
 const Card = ({data}) => {
   return (
     
-    <div className='bg-teal-50 my-3 px-10 hover:bg-teal-100 py-5 rounded-lg' >
+    <div className='bg-emerald-50 my-3 px-10 hover:bg-emerald-100 py-5 rounded-lg max-w-6xl  mx-auto ' >
        <span>Posted{}</span> 
        <h2 className='text-2xl font-bold my-4'>
         {data.title}
@@ -13,7 +13,7 @@ const Card = ({data}) => {
 
        <p className='flex gap-2 '>
 {data.upvotes}
-        <HandThumbUpIcon class="h-6 w-6 text-teal-800"/>  
+        <HandThumbUpIcon class="h-6 w-6 text-emerald-800"/>  
 
        </p>
        
